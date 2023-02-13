@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    background-color: azure;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 70px;
+    padding: 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#increment-btn {
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(241, 85, 85);
+    color: white;
+    font-weight: 900;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline;
+    margin-bottom: 10px;
+}
+
+#increment-btn:hover {
+    background-color: rgb(204, 62, 62);
+}
+
+#increment-btn:active {
+    background-color: rgb(167, 40, 40);
+}
+
+#save-btn {
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(42, 179, 0);
+    color: white;
+    font-weight: 900;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#save-btn:hover {
+    background-color: rgb(31, 133, 0);
+}
+
+#save-btn:active {
+    background-color: rgb(24, 102, 0);
+
+}
+
+#saved-el {
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 20px 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
