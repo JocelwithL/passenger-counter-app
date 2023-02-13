@@ -1,15 +1,21 @@
+//1:06:43 - JavaScript Programming - Full Course
+
 let count = 0;
 let countEl = document.getElementById("count-el");
 let savedEl = document.getElementById("saved-el");
 
-function incrementedCount () {
-    count += 1;
-    countEl.innerText = count;
+function incrementedCount() {
+     count += 1;
+     countEl.innerHTML = count;
 }
 
-function savedCount () {
-    let countStr = " " + count + " - "
-    savedEl.innerText = savedEl.innerHTML + countStr;
+function savedCount() {
+    countStr = count + " - ";
+    savedEl.innerHTML += countStr;
+    count = count - count;
+    countEl.innerHTML = count;
 }
 
-//1:06:43 - JavaScript Programming - Full Course
+function resetCount() {
+    savedEl.innerHTML = "Previous Entries: ";
+}
